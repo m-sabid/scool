@@ -1,0 +1,21 @@
+.login-img {
+    background-image: url(../../assets/banner/image1.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-img::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.188);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
